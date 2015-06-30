@@ -1,0 +1,190 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+    background: url(../images/111.jpg) top center;
+}
+
+.wrap > .container {
+    padding: 30px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/**
+ * Skyrim-inspired Menu
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+#skyrim-menu a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+#skyrim-menu a:hover, li:hover > a {
+    color: #FFF;
+}
+
+#skyrim-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#skyrim-menu li {
+    margin: 0;
+    padding: 0;
+}
+
+#skyrim-menu {
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    background: rgba(0, 0, 0, 0.5);
+    float: left;
+    font-size: 1.5em;
+    min-height: 100%;
+    margin-left: 0em;
+    border: #000000 solid 1px;
+    -moz-border-radius: 1em;
+    /* -webkit-border-radius: 5em; */
+    border-radius: 1em;
+    margin-top: 50px;
+    margin-right: 10px;
+    list-style-type: none;
+    padding-left: 1px;
+}
+
+#skyrim-menu li {
+    position: relative;
+    z-index: 1;
+}
+
+#skyrim-menu li a {
+    display: block;
+    padding: 0.5em 1em;
+    white-space: nowrap;
+}
+
+#skyrim-menu li ul {
+    position: absolute;
+    overflow: hidden;
+    display: none;
+    left: 100%;
+    top: 0.5em;
+    float: none;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#skyrim-menu li:hover ul {
+    display: block;
+}
+
+#skyrim-menu li ul a {
+    position: relative;
+    font-size: 0.8em;
+}
+
+#skyrim-menu li ul a:hover:before {
+    content: "";
+    display: block;
+    width: 1em;
+    height: 1em;
+    background: rgba(0,0,0,0.75);
+    border: 1px solid #FFF;
+    position: absolute;
+    top: 0.5em;
+    left: -0.75em;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background: none;
+}
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#file_description{
+    color: #D3D3D3;;
+}
